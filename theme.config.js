@@ -1,15 +1,15 @@
 // theme.config.js
 export default {
-  github: 'https://github.com/emptysetsquad/dollar', // link of the project repo
-  siteGithub: 'https://github.com/emptysetsquad/dollar-docs', // link of the docs repo path
-  titleSuffix: ' – Empty Set Dollar',
+  github: "https://github.com/emptysetsquad/dollar", // link of the project repo
+  siteGithub: "https://github.com/emptysetsquad/dollar-docs", // link of the docs repo path
+  titleSuffix: " – Empty Set Dollar",
   nextLinks: true,
   prevLinks: true,
   search: true,
   customSearch: null, // <- customizable, you can use algolia for example
   darkMode: true,
   footer: true,
-  footerText: 'MIT 2020 ©',
+  footerText: "MIT 2020 ©",
   footerEditOnGitHubLink: true, // will link to the docs repo
   logo: (
     <React.Fragment>
@@ -44,8 +44,8 @@ export default {
       />
     </React.Fragment>
   ),
-  // i18n: [
-  //   { locale: 'en', text: 'English' },
-  //   { locale: 'zh', text: '简体中文' },
-  // ],
-}
+  i18n: [
+    { locale: "en", text: "English" },
+    { locale: "zh", text: "简体中文" },
+  ],
+};

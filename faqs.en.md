@@ -4,11 +4,11 @@
 
 ## Empty Set Døllar
 
-### What is Empty Set Dollar? 
+### What is Empty Set Dollar?
 
 ESD is designed to be fully a decentralized self-stabilizing dollar.
 
-###  How does ESD differ from other stablecoins?
+### How does ESD differ from other stablecoins?
 
 A community member has written an article comparing and contrasting various approaches to stable coins. The TL:DR is:
 
@@ -20,31 +20,30 @@ See the article here: https://medium.com/@lewisfreiberg/empty-set-dollar-esd-a0a
 
 ### Who created ESD?
 
-The team is anonymous. 
+The team is anonymous.
 
 However, if you'd like to contact them you can email them here: emptysetsquad@protonmail.com
 
 ### If ESD is a stablecoin, is it always worth $1?
 
-
-No. The goal, at maturity, is to see the stablecoin stay very close to \$1.  However, it is expected in the early days of the project, it will be more volatile. Some volatility is natural -- the whole design of the protocol is to adjust the money supply when the price diverges -- consequently, it is not a surprise that it would diverge. And the fact that it was designed with a maximum award in one epoch of 1.1, indicates the designer felt like prices above $1.10 were to be expected.  So high volatility in the early days of the project is not necessarily a sign the protocol is not working.  However, over time it is expected for the volatility to subside and ESD to maintain its peg against the desired asset.
+No. The goal, at maturity, is to see the stablecoin stay very close to \$1. However, it is expected in the early days of the project, it will be more volatile. Some volatility is natural -- the whole design of the protocol is to adjust the money supply when the price diverges -- consequently, it is not a surprise that it would diverge. And the fact that it was designed with a maximum award in one epoch of 1.1, indicates the designer felt like prices above $1.10 were to be expected. So high volatility in the early days of the project is not necessarily a sign the protocol is not working. However, over time it is expected for the volatility to subside and ESD to maintain its peg against the desired asset.
 
 In a [medium](https://medium.com/@0xans/ess-a-brief-intro-towards-novel-elastic-stablecoin-implementation-607e86654a9f) post by an early community member of ESD he/she explains the mechanism.
 
-### How ESD's supply grow in relation to token holders? 
+### How ESD's supply grow in relation to token holders?
 
-ESD uses a seigniorage model to grow the money supply. This means, if the market demands more ESD (more buyers than sellers of ESD), more of the coin (ESD) will be minted to meet that demand and bring the price back down to $1.  That extra minted money supply is distributed to the current holders of ESD (who have taken steps to lock their holdings to the protocol, as detailed below.)  Keep in mind, if the reverse happens -- demand goes down -- the protocol has to reduce the supply of ESD, having an opposite effect.
+ESD uses a seigniorage model to grow the money supply. This means, if the market demands more ESD (more buyers than sellers of ESD), more of the coin (ESD) will be minted to meet that demand and bring the price back down to $1. That extra minted money supply is distributed to the current holders of ESD (who have taken steps to lock their holdings to the protocol, as detailed below.) Keep in mind, if the reverse happens -- demand goes down -- the protocol has to reduce the supply of ESD, having an opposite effect.
 
 ### How does ESD become a sustainably useful token?
 
-For ESD to become a sustainably useful stablecoin like USDT or DAI, it must begin to be accepted as currency by DeFi and other applications on the Ethereum protocol. In periods of volatility, the token's utility may be diminished. However, as the protocol matures the volatility will reduce increasing its utility. 
+For ESD to become a sustainably useful stablecoin like USDT or DAI, it must begin to be accepted as currency by DeFi and other applications on the Ethereum protocol. In periods of volatility, the token's utility may be diminished. However, as the protocol matures the volatility will reduce increasing its utility.
 
 ### I want to contribute to ESD’s success, what should I do?
 
 Thank you for wanting to help make the project succeed. You can contribute to everyone’s benefit in many ways. Some clear ones:
 
 - Take time to read the white paper and these docs to understand the implications of the protocol and how it can be applied to the DeFi ecosystem.
-- Join the Discord group linked from the DAO to help answer questions & discuss governance issues. 
+- Join the Discord group linked from the DAO to help answer questions & discuss governance issues.
 - Advocate for ESD to be added into other DeFi platforms
 
 <hr />
@@ -85,12 +84,11 @@ This means when you are bonded and want to withdraw, you will first unbond, spen
 
 For Deposit, you will be able to deposit and bond in the same epoch as when you deposit and stage you will still be in a frozen state, but as soon as you bond, you will be in a fluid state, so you cannot deposit again in that epoch, or withdraw.
 
-
-Frozen and fluid states (also Locked) appear on the wallet page and the LP Reward Pool page of the DAO.  This terminology is a bit confusing, but you are basically allowed to interact with the DAO by bonding or unbonding ESD or LP just once per epoch.  Frozen and fluid tell you the state of your access to transacting with the DAO.  “Frozen” enables you to transact.  More state detail is discussed in the white paper.
+Frozen and fluid states (also Locked) appear on the wallet page and the LP Reward Pool page of the DAO. This terminology is a bit confusing, but you are basically allowed to interact with the DAO by bonding or unbonding ESD or LP just once per epoch. Frozen and fluid tell you the state of your access to transacting with the DAO. “Frozen” enables you to transact. More state detail is discussed in the white paper.
 
 ### Should I advance an epoch? What does this mean?
 
-Epochs happen every eight hours. For technical reasons, someone needs to manually trigger the start of a new epoch.  A number of users have written bots competing for the 100 ESD reward to be the first to trigger it, as a new user I would not worry about this technical detail.
+Epochs happen every eight hours. For technical reasons, someone needs to manually trigger the start of a new epoch. A number of users have written bots competing for the 100 ESD reward to be the first to trigger it, as a new user I would not worry about this technical detail.
 
 ### What does the governance page do and how should I engage with it?
 
@@ -104,7 +102,7 @@ If the money supply needs to be shrunk, no supply expansion will be made that ep
 
 ### How do we know if any given epoch will have rewards and how much rewards?
 
-You can’t know for sure until right when the new epoch is triggered as the TWAP price is adjusted by the trading activity right up to the new Epoch. 
+You can’t know for sure until right when the new epoch is triggered as the TWAP price is adjusted by the trading activity right up to the new Epoch.
 
 You can estimate the amount of rewards by looking at the Regulation page on the DAO and doing some calculations. However a community maintained website, called [ESD Tools](https://esd.tools/), that makes an estimate of what, if any, rewards can be expected in this epoch, but it is not perfect, only indicative.
 
@@ -114,7 +112,7 @@ You can estimate the amount of rewards by looking at the Regulation page on the 
 
 ### How do I participate in maintaining the peg?
 
-In order to participate in maintaining the price peg for ESD you need to have tokens to either bond or provide liquidity with. 
+In order to participate in maintaining the price peg for ESD you need to have tokens to either bond or provide liquidity with.
 
 ### How do I buy ESD?
 
@@ -131,14 +129,14 @@ If you buy ESD on Uniswap but do nothing else, no. Your ESD is in a state called
 There are three methods to generate rewards when holding ESD:
 
 1. Take your ESD and bond it to the DAO (recommended for beginners)
-2. Take your ESD and provide liquidity to the Uniswap LP pool, and bond those tokens to the DAO to receive liquidity rewards. 
+2. Take your ESD and provide liquidity to the Uniswap LP pool, and bond those tokens to the DAO to receive liquidity rewards.
 3. Buy ESD debt coupons during periods the protocol goes into debt, and redeem them later when it goes into surplus
 
 ### How does bonding compare with providing liquidity?
 
-The relative reward to bonding to the DAO, and providing liquidity in the Uniswap pool, vary somewhat. 80% of created new supply is awarded to those who bond to the DAO, and 20% to people who provide liquidity to the LP. Depending on the total amount in the Uniswap LP, those rewards can vary dramatically. Also, being a liquidity provider has its own risks including impermanent loss. 
+The relative reward to bonding to the DAO, and providing liquidity in the Uniswap pool, vary somewhat. 80% of created new supply is awarded to those who bond to the DAO, and 20% to people who provide liquidity to the LP. Depending on the total amount in the Uniswap LP, those rewards can vary dramatically. Also, being a liquidity provider has its own risks including impermanent loss.
 
-A community member has created this information site: [ESD Tools](https://esd.tools/) which estimates the relative rewards  for the current epoch. Large token holders can move large sums in and out of the LP pool on Uniswap in between epochs and dramatically move the rewards distributed to the LP. 
+A community member has created this information site: [ESD Tools](https://esd.tools/) which estimates the relative rewards for the current epoch. Large token holders can move large sums in and out of the LP pool on Uniswap in between epochs and dramatically move the rewards distributed to the LP.
 
 Further, the rewards can change right up to the end of the epoch. So LP rewards are sometimes higher than the DAO, sometimes less, but are more volatile.
 
@@ -148,17 +146,17 @@ Bonding your ESD to the DAO is very likely the best way to go. It is simple, and
 
 Entering the liquidity pool is more complicated -- you have to provide at uniswap, risk impermanent loss, stake the Uniswap token at the DAO. Most importantly, this method does not automatically add the reward into the LP pool -- each epoch you are granted rewards but they will just float, circulating, unless you take action every 8 hours to enter them (either re-providing them into the liquidity pool, or claiming them and staking them to the DAO). For these reasons, when getting started, bonding to the DAO is a good place.
 
-Purchasing coupons also has risks -- you have to have a view on when the protocol will come out of debt, and if the protocol goes a month without coming out of contraction, your coupons could expire  -- so as a beginner coupons may not be for you.
+Purchasing coupons also has risks -- you have to have a view on when the protocol will come out of debt, and if the protocol goes a month without coming out of contraction, your coupons could expire -- so as a beginner coupons may not be for you.
 
 ### What are the exact steps to buy ESD from Uniswap and bond to the DAO?
 
-1. Go to the Wallet page on the DAO site:  http://emptyset.finance/#/wallet/ 
+1. Go to the Wallet page on the DAO site: http://emptyset.finance/#/wallet/
 2. Click on Trade button to go to Uniswap
 3. Connect to Uniswap, and approve the tokens for trading
 
 ![Uniswap USDC-ESD pair](/uniswap-usdcesd.png)
 
-4. Enter an amount of USDC into Uniswap, approve the transaction and buy ESD. 
+4. Enter an amount of USDC into Uniswap, approve the transaction and buy ESD.
 5. Pay attention to the price and slippage as the market's liquidity changes hourly.
 6. Come back to the ESD DAO wallet page: http://emptyset.finance/#/wallet/
 7. Click unlock to allow the DAO to interact with your ESD
@@ -169,11 +167,11 @@ Purchasing coupons also has risks -- you have to have a view on when the protoco
 
 ![Staging via the DAO website](/stage.png)
 
-8. Click Max to load the box next to the “bond” button and click bond. When that transaction clears, your ESD will be bonded to the DAO and begin earning rewards at the end of the epoch. 
+8. Click Max to load the box next to the “bond” button and click bond. When that transaction clears, your ESD will be bonded to the DAO and begin earning rewards at the end of the epoch.
 
 ![Bonding ESD via the DAO](/bond.png)
 
->  **Note**: that once you initiate a bond during an epoch, you will not be able to deposit/withdraw thereafter during that epoch (until the next epoch resets), per below on Frozen/Fluid state.
+> **Note**: that once you initiate a bond during an epoch, you will not be able to deposit/withdraw thereafter during that epoch (until the next epoch resets), per below on Frozen/Fluid state.
 
 ### What are the exact steps to bond Uniswap LP pool tokens?
 
@@ -193,18 +191,19 @@ If you want to sell ESD, you must first unbond them from the DAO, and then unsta
 
 ### What can I do with rewards from bonding Uniswap LP tokens?
 
-After you are rewarded tokens for providing liquidity to the Uniswap pool, they will appear on the LP Reward Pool page of the DAO (http://emptyset.finance/#/pool/) under rewarded on the header. Those tokens, in that state, are circulating -- they are not generating further rewards. 
+After you are rewarded tokens for providing liquidity to the Uniswap pool, they will appear on the LP Reward Pool page of the DAO (http://emptyset.finance/#/pool/) under rewarded on the header. Those tokens, in that state, are circulating -- they are not generating further rewards.
 
 If you want to roll them into additional ownership of the Uniswap LP pool, you can do it easily with one click. On the bottom of the LP Reward Pool page, you see a “Provide” section. It will also display your USDC balance in your connected wallet. You can enter a number from your awarded tokens (or just click Max) into the box, and if you have sufficient USDC to contribute the necessary proportion demanded by the pool at that time, you will trigger a transaction by clicking provide that will take your rewarded ESD, and the appropriate amount of USDC, add it to the Uniswap pool, and stake the Uniswap LP token you receive in return to the DAO -- effectively increasing your ownership in the LP pool.
 
 Alternatively, if you want to withdraw your awarded tokens or bond them to the DAO, you have to:
 
-	1. Click 'Max' next to the Unbond button.
- 	2. Click unbond and send the transaction
- 	3. Once confirmed you should see the tokens move from "Rewarded" to "Claimable"
- 	4. If you wish to re-bond your Uniswap LP tokens and continue to get rewards in the next epoch. Then click 'max' next to Bond, then send the Bond transaction
- 	5. Wait 1 epoch
- 	6. Click claim and then the tokens will be in your wallet
+    1. Click 'Max' next to the Unbond button.
+
+2. Click unbond and send the transaction
+3. Once confirmed you should see the tokens move from "Rewarded" to "Claimable"
+4. If you wish to re-bond your Uniswap LP tokens and continue to get rewards in the next epoch. Then click 'max' next to Bond, then send the Bond transaction
+5. Wait 1 epoch
+6. Click claim and then the tokens will be in your wallet
 
 <hr />
 
@@ -212,4 +211,4 @@ Alternatively, if you want to withdraw your awarded tokens or bond them to the D
 
 ### I am trying to do an action on the DAO site, such as deposit or bond, and the button stays grayed out or won’t work -- why might this happen?
 
-Chances are, you already did a transaction in this epoch, and have to wait until the next epoch to interact again.  See above regarding frozen and fluid states.
+Chances are, you already did a transaction in this epoch, and have to wait until the next epoch to interact again. See above regarding frozen and fluid states.
